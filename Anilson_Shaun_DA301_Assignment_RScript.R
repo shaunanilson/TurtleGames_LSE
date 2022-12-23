@@ -174,7 +174,7 @@ abline(model1,col='red')
 
 model2=lm(NA_Sales~EU_Sales,data=tur_group)
 summary(model2)
-plot(tur_group$EU_Sales,tur_group$Global_Sales)
+plot(tur_group$EU_Sales,tur_group$NA_Sales)
 abline(model2,col='blue')
 
 # 6.4 Multiple linear regression model
